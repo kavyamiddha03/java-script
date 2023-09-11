@@ -32,3 +32,11 @@ const myFunction = function(){
     console.log("hello world");
 
 }
+
+myFunction();
+
+console.log(typeof heros);
+
+// null typeof  = object
+// function typeof =  function
+
