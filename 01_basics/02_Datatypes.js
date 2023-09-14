@@ -22,6 +22,6 @@ let isLOggedin = false;
 // undefined =>
 // symbol => uniqueness
 
-//object
 
-console.log(typeof null);
+console.log(typeof null); 
+//object
