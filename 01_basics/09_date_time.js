@@ -30,6 +30,6 @@ console.log(newDate.toDateString());
 
 // `${newDate.getdate()} and the time is`
 
-newDate.toDateString('default',{
+newDate.toLocaleString('default',{
     weekday: "Long",
 })

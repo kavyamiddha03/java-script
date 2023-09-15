@@ -17,7 +17,7 @@ const oneanotherarr = anotherarray.flat(2)
 // console.log(oneanotherarr);
 console.log(Array.isArray("hitesh"));
 console.log(Array.from("hitesh"));
-console.log(Array.from({name: "hitesh"}));// we have to that we have make a arrays wuth keys or values gives empty array
+console.log(Array.from({name: "hitesh"}));// we have to declare that we have make a arrays with keys or values ==== gives empty array
 
 let score1 = 100
 let score2 = 200
