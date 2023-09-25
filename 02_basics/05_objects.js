@@ -16,14 +16,14 @@ console.log(instructor);
 // Api = randomUserme api
 // to read api = json formatter
 
-{
-    "name": "hitesh",
-    "price": "free",
-    "channel": "chai aur code"
-}
+// {
+//     "name": "hitesh",
+//     "price": "free",
+//     "channel": "chai aur code"
+// }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
