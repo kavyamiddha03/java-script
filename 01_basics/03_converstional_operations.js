@@ -1,7 +1,7 @@
 let score= "33abc"
 
 // console.log(typeof score);
-// console.log(typeof (score));
+console.log(typeof (score))
 
 let valueInnumber = Number(score)
 // console.log(typeof valueInnumber)
@@ -18,6 +18,7 @@ let Isloggenin = ""
 
 let booleanLoggedIn = Boolean(Isloggenin)
 console.log( booleanLoggedIn);
+console.log( typeof booleanLoggedIn);
 
 // 1 => true
 // 0 => false

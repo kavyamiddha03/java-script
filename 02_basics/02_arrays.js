@@ -14,7 +14,7 @@ console.log(myArr);
 
 const anotherarray = [1 ,2 ,3,[ 4 , 5 , 6 ] ,6 ,7,[ 3 , 6 , 7,[1,2,3] ]]
 const oneanotherarr = anotherarray.flat(2)
-// console.log(oneanotherarr);
+console.log(oneanotherarr);
 console.log(Array.isArray("hitesh"));
 console.log(Array.from("hitesh"));
 console.log(Array.from({name: "hitesh"}));// we have to declare that we have make a arrays with keys or values ==== gives empty array

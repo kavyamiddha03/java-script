@@ -1,11 +1,11 @@
 //dates
 
 const myDAte = new Date();
-// console.log(myDAte.toString());
-// console.log(myDAte.toLocaleDateString());
-// console.log(myDAte.toLocaleString());
-// console.log(myDAte.toDateString());
-// console.log(myDAte.toJSON());
+console.log(myDAte.toString());
+console.log(myDAte.toLocaleDateString());
+console.log(myDAte.toLocaleString());
+console.log(myDAte.toDateString());
+console.log(myDAte.toJSON());
 
 // console.log(typeof myDAte);
 
@@ -21,15 +21,27 @@ let Mytimestamp = Date.now();
 
 console.log(Math.floor(Date.now()/1000));
 
-let newDate = new Date()
-console.log(newDate.getDate());
-console.log(newDate.getMonth());
-console.log(newDate.getHours());
-console.log(newDate.toLocaleString());
-console.log(newDate.toDateString());
+// let newDate = new Date()
+// console.log(newDate.getDate());
+// console.log(newDate.getMonth());
+// console.log(newDate.getHours());
+// console.log(newDate.toLocaleString());
+// console.log(newDate.toDateString());
 
-// `${newDate.getdate()} and the time is`
+// `${newDate.getate()} andd the time is`
 
-newDate.toLocaleString('default',{
-    weekday: "Long",
-})
+// ************************************* formatting dates with intl api **************************************
+// Internationalization Api
+
+const now = new Date();
+console.log(now);
+let options = {
+    day:'numeric',
+    month:'numeric',
+    year:'2-digit',
+    hour: 'numeric',
+    minute: 'numeric',
+    weekday: 'long'//short , narrow , 
+}
+let FormattedUS = Intl.DateTimeFormat('en-US', options).format(now);
+console.log(FormattedUS);
