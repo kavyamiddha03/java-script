@@ -1,10 +1,10 @@
 const usereamil = ""
 
-// if(usereamil){
-//     console.log("email entered");
-// }else{
-//     console.log("enter your email");
-// }
+if(usereamil){
+    console.log("email entered");
+}else{
+    console.log("enter your email");
+}
 
 // Falsy values
 // 0 , -0 , "" , false , Bigint 0n , null , undefined , NaN;

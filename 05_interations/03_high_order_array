@@ -1,0 +1,109 @@
+const arr = [1,2,3,4,5]
+
+for (const key in arr) {
+    // console.log(key);
+}
+
+const greetings = "hello world"
+
+for (const greet of greetings) {
+    // console.log(`Each char is ${greet}`);
+}
+
+ // Maps 
+
+//  const map = new Map();
+//  map.set('In', 'India')
+//  map.set('USA' , 'United State')
+//  map.set('Fr', 'FRANCE')
+//  map.set('In', 'India')
+
+
+//  console.log(map);
+
+//  for (const [key,value] of map) {
+//     // console.log(key + ":-" + value);
+//  }
+
+ const myobj = {
+    'game1' : "NFS",
+    'game2' : "GOW"
+ }
+
+//  for (const [key,value] of myobj) {
+//     // console.log(key + ":-" + value);
+//  }
+
+
+ // for in 
+
+ const myobj1 = {
+    js: 'javascript',
+    cpp: 'c++',
+    rb: 'ruby',
+    chash : 'csharp'
+ }
+
+ for (const key in myobj1) {
+   //  console.log(`Full form of ${key} is ${myobj1[key]}`);
+ }
+
+ const program = ['js', 'ruby', 'cpp', 'java' ] 
+
+ for (const key in program) {
+//   console.log(program[key]);
+ }
+
+ const map = new Map();
+ map.set('In', 'India')
+ map.set('USA' , 'United State')
+ map.set('Fr', 'FRANCE')
+ map.set('In', 'India')
+
+ for (const key in map) {
+//   console.log(map[key]);
+ }
+
+// For each
+
+const coding = ["js", "cpp" , "java" , "python" , "ruby"]
+
+coding.forEach( function (){
+// console.log();
+})
+
+// By arrow function
+coding.forEach( (item) => {
+   // console.log(item);
+})
+
+function printme(item) {
+   console.log(item);
+}
+
+// coding.forEach( printme )
+
+
+coding.forEach( function (item , index , arr) {
+// console.log(item , index , arr);
+})
+
+
+const mycoding = [
+   {
+      language_name : "javascript",
+      language_file : "js"
+   },
+   {
+      language_name : "java",
+      language_file : "java"
+   },
+   {
+      language_name : "python",
+      language_file : "py"
+   },
+]
+
+ mycoding.forEach( (item) =>{
+   console.log(item.language_name);
+ })

@@ -1,0 +1,44 @@
+const coding = ["js", "cpp" , "java" , "python" , "ruby"]
+
+
+    //  const value = coding.forEach( (item) => {
+    //     console.log(item);
+    //  } )
+
+    //  console.log(value); // doenst return a value this is why we use filter 
+
+    const mynum = [1,2,3,4,5,6,7,8,9,10]
+
+    // const mynum = num1.filter( (num) => {
+    //    return  num > 4
+    // })
+
+
+    // console.log(mynum);
+
+
+    const newnums = []
+
+    mynum.forEach( (num) => {
+        if (num > 4) {
+            newnums.push(num)
+        }
+    })
+
+    // console.log(newnums)
+
+
+    const books = [
+        {tilte: 'book one' , genre: 'Fiction' , publish: '1981' , edition: 2002},
+        {tilte: 'book two' , genre: 'history' , publish: '1982' , edition: 2003},
+        {tilte: 'book three' , genre: ' Non Fiction' , publish: '1984' , edition: 2006},
+        {tilte: 'book four' , genre: 'Fiction' , publish: '2000' , edition: 2007},
+        {tilte: 'book five' , genre: 'history' , publish: '1999' , edition: 2009},
+        {tilte: 'book six' , genre: 'science' , publish: '2004' , edition: 2012}
+    ]
+
+    let userbooks = books.filter( (bk) => { return bk.publish >= 2000} )
+    userbooks = books.filter( (bk) =>{
+        return bk.publish >= 2000 && bk.genre === 'history'
+    })
+    console.log(userbooks)
